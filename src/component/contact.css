@@ -1,0 +1,58 @@
+.section-contact .section-contact-para-wrapper {
+    margin-top: 3rem;
+    font-size:1.5em;
+    
+}
+
+.section-contact .section-contact-btn-wrapper {
+    /* position: relative; */
+    margin:5rem auto 0 auto;
+    text-align: center;
+    align-items: center;
+    
+}
+
+.section-contact .section-contact-btn {
+    display: inline-block;
+    width: 10rem;
+    padding: .5em;
+    font-weight: 500;
+    font-size: 1em;
+    color: yellow;
+    background: black;
+    border: none;
+    border-radius: 3px;
+    text-transform: uppercase;
+    -webkit-transition: all .5s;
+    transition:all .5s;
+}
+
+
+.section-contact .section-contact-btn:hover {
+    background: black;
+    color:white;
+    text-align: center;
+}
+
+.section-contact .section-contact-btn:hover .btn-icon {
+    color:white;
+}
+
+.section-contact .section-contact-btn-icon {
+    margin-right:.7rem;
+}
+
+.section-contact .section-contact-para-small {
+    margin-top: 10rem;
+    font-size:1em;
+}
+
+
+.contact_title{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+	margin-top: 10rem;
+
+}
+

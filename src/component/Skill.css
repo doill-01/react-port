@@ -1,0 +1,63 @@
+@media screen and (min-width: 1080px) {
+	.skillsGrid{
+	  display: grid;
+	  grid-template-columns: repeat(6, 1fr);
+	  gap: 50px;
+	  grid-auto-rows: auto;
+	  height: auto;
+	  margin-bottom: auto;
+	}
+  .skillsGrid img {
+	height: 100px;
+	width: 100px;
+  }
+  .skill{
+	background-color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	margin: auto;
+	padding: auto;
+  }
+
+  .Frontend,.Backend{
+	margin: auto;
+	padding: auto;
+  }
+
+  .todolist{
+	padding-top: 48px;
+    padding-left:32px;
+    padding-right:32px;
+    padding-bottom:24px;
+    border-bottom:1px solid #e9ecef;
+  }
+
+  .b{
+	margin-top: 4px;
+  }
+
+  .skillsGrid{
+	animation: float-img 2.5s ease-in-out infinite;
+  }
+
+  @keyframes float-img{
+	0%{
+		transform: translateY(0);
+	}
+	50%{
+		transform: translateY(-.75rem);
+	}
+	100%{
+		transform: translateY(0);
+	}
+}
+  }
+
+
+  
